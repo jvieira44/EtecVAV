@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    font-family: DejaVu Sans Mono, monospace
+}
+
+.navbar-nav a {
+    color: #61b1ed
+}
+
+.navbar-nav {
+    gap: 8px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #61b1ed
+}
+
+.navbar .nav-link:hover {
+    color: #61b1ed
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+    color: #ffffff
+}
+
+main {
+    flex: 1;
+}
+
+.card-body {
+    padding: 25px 20px;
+}
+
+.titulo-principal {
+    margin-bottom: 25px;
+}
+
+.texto {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.intro-texto {
+    max-width: 700px;
+}
+
+.card-bootstrap {
+    width: 18rem;
+}
+
+.card-bootstrap img {
+    height: 160px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+.ano-badge {
+    background-color: #0d6efd;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px 12px;
+}
+
+.card-historia {
+    border-color: #dee2e6;
+}
+
+.pagination {
+    margin-bottom: 15px;
+}
+
+.rodape {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+}

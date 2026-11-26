@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding-top: 70px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e8f6f8, #d8e8f2, #f1e5f5);
+}
+
+.navbar {
+    height: 65px;
+}
+
+.navbar-brand {
+    font-size: 18px;
+}
+
+.paginas {
+    margin-top: 22px;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.carousel {
+    width: 80%;
+    margin: auto;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+main {
+    text-align: center;
+    margin-top: 80px;
+}
+
+main h1 {
+    font-size: 35px;
+}
+
+main p {
+    font-size: 18px;
+}
+
+main img {
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    color: white;
+    transform: translateY(-100px);
+}
+
+.conteudo {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    margin-bottom: 30px;
+}
