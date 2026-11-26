@@ -1,0 +1,49 @@
+h1 {
+    color: #1bc6cf
+}
+
+td {
+    background-color: #15698f
+}
+
+h3 {
+    color: #ffffff
+}
+
+table {
+    background-color: #7DF9FF
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+.tituloprincipal {
+    color: rgb(255, 255, 255);
+}
+
+.topo {
+    background-color: #123b54;
+}
+
+.rodapé {
+    background-color: #184a69;
+}
+body {
+    font-family: Verdana 
+}
+body {
+    font-size: 15px;
+}
+mark {
+   background-color: #8ac1d1;
+}
+table {
+   width: 80%;
+   margin: auto;
+}
+
+div{
+    width: 80%;
+    margin: 0 auto;
+}

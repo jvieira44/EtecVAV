@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #2f2f2f;
+    padding: 15px;
+    border-radius: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+.topo {
+    background-color: #3554df;
+    padding: 1px 0;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    background-color: #3b3b3b;
+    padding: 10px 22px;
+    border-radius: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .navbar {
+        width: 95%;
+        max-width: 1400px;
+        margin: 20px auto;
+    }
+    .menu li {
+        padding: 12px 24px;
+    }
+    .menu a {
+        font-size: 17px;
+    }
+}
+
+.conteudo {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #3554df;
+    color: white;
+}
+
+.conteudo2 {
+    text-align: justify;
+    width: 60%;
+}
+
+.conteudo h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.conteudo p {
+    margin-bottom: 20px;
+    text-align: justify;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.titulo2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #d8d8d8;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cardtexto {
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    text-align: justify;  
+}
+
+.rodapé {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo3 {
+    text-align: center;
+}
+
+.fontegrafico {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card1 {
+    background-color: #DCEBFF;
+    color: #2563EB;
+}
+
+.card2 {
+    background-color:  #DDFBE3;
+    color: #16A34A;
+}
+
+.card3 {
+    background-color: #FFF0C9;
+    color: #D97706;
+}
+
+.cardpro {
+    background-color:#DCEBFF;
+    color: #272f5ace;
+}
+
+.cardcur {
+    background-color: #DCEBFF;
+    color: #272f5ace;
+}
+
+.cardcar {
+    background-color: #DCEBFF;
+    color: #272f5ace;
+}
+
+.imagemcards {
+   margin-top: 20px;
+}
+
+.sobre-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.sobre-titulo {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.sobre-subtitulo {
+  text-align: center;
+  font-size: 22px;
+  margin: 30px 0 10px 0;
+}
+
+.sobre-texto {
+  text-align: justify;
+  text-indent: 1.25cm;
+  margin-bottom: 12px;
+}
+
+.sobre-referencias {
+  margin-top: 20px;
+}
+
+.sobre-ref-item {
+  text-align: justify;
+  text-indent: -1.25cm;
+  margin-left: 1.25cm;
+  margin-bottom: 10px;
+}
+
+.negrito1{
+    color: #093d6e;
+}
+
+.negrito2{
+   color:  #086d2a;
+}
+
+.negrito3{
+     color: #926107;
+}
+
+.negrito4{
+    color: #410a81;
+}
