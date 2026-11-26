@@ -34,4 +34,4 @@ Meu objetivo é continuar aprendendo, explorando novas tecnologias e construindo
 
 ---
 
-⭐ **Obrigado por visitar meu perfil!** Fique à vontade para explorar meus projetos.****
+⭐ **Obrigado por visitar meu perfil!** Fique à vontade para explorar meus projetos.
