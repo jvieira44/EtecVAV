@@ -1,4 +1,4 @@
-# Olá! Eu sou Júlio Vieira, estudante de Desenvolvimento de Sistemas 👋
+# Eu sou Júlio Vieira, estudante de Desenvolvimento de Sistemas 👋
 
 💻 Bem-vindo(a) ao meu GitHub!
 
